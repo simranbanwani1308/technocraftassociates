@@ -1,0 +1,11 @@
+{
+  "name": "technocraft-website",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  },
+  "allowScripts": {
+    "puppeteer@22.15.0": true
+  }
+}
