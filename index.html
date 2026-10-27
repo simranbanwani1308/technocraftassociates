@@ -393,6 +393,12 @@
     @media (max-width: 768px) {
       .cert-grid { grid-template-columns: 1fr; }
     }
+
+    /* ─── Recognition ─── */
+    .recog-grid { display: grid; grid-template-columns: 1fr 0.75fr; gap: 3rem; align-items: center; }
+    @media (max-width: 768px) {
+      .recog-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+    }
   </style>
 </head>
 <body>
@@ -1127,9 +1133,9 @@
 <!-- ══════════════════════════════════════
      RECOGNITION
 ══════════════════════════════════════ -->
-<section style="padding:4rem 0;background:var(--tint);">
+<section id="recognition" style="padding:4rem 0;background:var(--tint);">
   <div style="max-width:1200px;margin:0 auto;padding:0 2rem;">
-    <div class="reveal" style="display:grid;grid-template-columns:1fr 0.75fr;gap:3rem;align-items:center;">
+    <div class="recog-grid reveal">
 
       <!-- Left: text -->
       <div style="display:flex;flex-direction:column;gap:1.5rem;">
